@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04202C1F1E527FBE00F5B3BF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04202C1E1E527FBE00F5B3BF /* Colors.swift */; };
 		0420F1881E4F986D00719C4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420F1871E4F986D00719C4D /* AppDelegate.swift */; };
 		0420F18A1E4F986D00719C4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420F1891E4F986D00719C4D /* ViewController.swift */; };
 		0420F18D1E4F986D00719C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0420F18B1E4F986D00719C4D /* Main.storyboard */; };
 		0420F18F1E4F986D00719C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0420F18E1E4F986D00719C4D /* Assets.xcassets */; };
 		0420F1921E4F986D00719C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0420F1901E4F986D00719C4D /* LaunchScreen.storyboard */; };
+		042F0C321E4FBEEB00CF3DF0 /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F0C311E4FBEEB00CF3DF0 /* FilmViewController.swift */; };
+		042F0C341E4FDC7900CF3DF0 /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F0C331E4FDC7900CF3DF0 /* Films.swift */; };
+		04949C9B1E51EE1F006977D3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04949C9A1E51EE1F006977D3 /* CollectionViewCell.swift */; };
+		04ACBDBD1E5359B900460B2B /* UIWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACBDBC1E5359B900460B2B /* UIWebViewController.swift */; };
+		04AE82F61E5FC10200B6AA9E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04AE82F51E5FC10200B6AA9E /* GoogleService-Info.plist */; };
+		04BAA3391E523BD100985987 /* FilmCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAA3381E523BD100985987 /* FilmCollectionViewCell.swift */; };
+		9C1FD6240EAC2CCD1A369B22 /* Pods_Tuto_Fire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0660A851A319066A690B35CD /* Pods_Tuto_Fire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		023F982005ACE4AB5E9A800A /* Pods-Tuto Fire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tuto Fire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tuto Fire/Pods-Tuto Fire.debug.xcconfig"; sourceTree = "<group>"; };
+		04202C1E1E527FBE00F5B3BF /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		0420F1841E4F986D00719C4D /* Tuto Fire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tuto Fire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0420F1871E4F986D00719C4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0420F1891E4F986D00719C4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,15 @@
 		0420F18E1E4F986D00719C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0420F1911E4F986D00719C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0420F1931E4F986D00719C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042F0C311E4FBEEB00CF3DF0 /* FilmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
+		042F0C331E4FDC7900CF3DF0 /* Films.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
+		04574E811E61DF350005344C /* Tuto Fire.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Tuto Fire.entitlements"; sourceTree = "<group>"; };
+		04949C9A1E51EE1F006977D3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		04ACBDBC1E5359B900460B2B /* UIWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWebViewController.swift; sourceTree = "<group>"; };
+		04AE82F51E5FC10200B6AA9E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04BAA3381E523BD100985987 /* FilmCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmCollectionViewCell.swift; sourceTree = "<group>"; };
+		0660A851A319066A690B35CD /* Pods_Tuto_Fire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tuto_Fire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADBC2F1EF58B0F14DAD7CB9 /* Pods-Tuto Fire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tuto Fire.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tuto Fire/Pods-Tuto Fire.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C1FD6240EAC2CCD1A369B22 /* Pods_Tuto_Fire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +60,8 @@
 			children = (
 				0420F1861E4F986D00719C4D /* Tuto Fire */,
 				0420F1851E4F986D00719C4D /* Products */,
+				C0F436F0323C556F6F0EF59D /* Pods */,
+				84060D6F3C539BB6ABB87728 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +76,55 @@
 		0420F1861E4F986D00719C4D /* Tuto Fire */ = {
 			isa = PBXGroup;
 			children = (
+				04574E811E61DF350005344C /* Tuto Fire.entitlements */,
 				0420F1871E4F986D00719C4D /* AppDelegate.swift */,
-				0420F1891E4F986D00719C4D /* ViewController.swift */,
+				042F0C331E4FDC7900CF3DF0 /* Films.swift */,
+				04202C1E1E527FBE00F5B3BF /* Colors.swift */,
+				04BAA33B1E5240D000985987 /* View Controllers */,
+				04BAA33A1E5240AD00985987 /* CustomCell */,
 				0420F18B1E4F986D00719C4D /* Main.storyboard */,
 				0420F18E1E4F986D00719C4D /* Assets.xcassets */,
 				0420F1901E4F986D00719C4D /* LaunchScreen.storyboard */,
 				0420F1931E4F986D00719C4D /* Info.plist */,
+				04AE82F51E5FC10200B6AA9E /* GoogleService-Info.plist */,
 			);
 			path = "Tuto Fire";
+			sourceTree = "<group>";
+		};
+		04BAA33A1E5240AD00985987 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				04BAA3381E523BD100985987 /* FilmCollectionViewCell.swift */,
+				04949C9A1E51EE1F006977D3 /* CollectionViewCell.swift */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		04BAA33B1E5240D000985987 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04ACBDBC1E5359B900460B2B /* UIWebViewController.swift */,
+				0420F1891E4F986D00719C4D /* ViewController.swift */,
+				042F0C311E4FBEEB00CF3DF0 /* FilmViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		84060D6F3C539BB6ABB87728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0660A851A319066A690B35CD /* Pods_Tuto_Fire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0F436F0323C556F6F0EF59D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				023F982005ACE4AB5E9A800A /* Pods-Tuto Fire.debug.xcconfig */,
+				FADBC2F1EF58B0F14DAD7CB9 /* Pods-Tuto Fire.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0420F1961E4F986D00719C4D /* Build configuration list for PBXNativeTarget "Tuto Fire" */;
 			buildPhases = (
+				3A5F9BA516A1D9451E4D1934 /* [CP] Check Pods Manifest.lock */,
 				0420F1801E4F986D00719C4D /* Sources */,
 				0420F1811E4F986D00719C4D /* Frameworks */,
 				0420F1821E4F986D00719C4D /* Resources */,
+				1FA3AFAAFC1AACE008F38BE1 /* [CP] Embed Pods Frameworks */,
+				4AC290BC03515CD8603E58F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +164,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = NYR5C8VYSX;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,10 +198,59 @@
 				0420F1921E4F986D00719C4D /* LaunchScreen.storyboard in Resources */,
 				0420F18F1E4F986D00719C4D /* Assets.xcassets in Resources */,
 				0420F18D1E4F986D00719C4D /* Main.storyboard in Resources */,
+				04AE82F61E5FC10200B6AA9E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FA3AFAAFC1AACE008F38BE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tuto Fire/Pods-Tuto Fire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A5F9BA516A1D9451E4D1934 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4AC290BC03515CD8603E58F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tuto Fire/Pods-Tuto Fire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0420F1801E4F986D00719C4D /* Sources */ = {
@@ -138,7 +258,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0420F18A1E4F986D00719C4D /* ViewController.swift in Sources */,
+				04BAA3391E523BD100985987 /* FilmCollectionViewCell.swift in Sources */,
+				042F0C341E4FDC7900CF3DF0 /* Films.swift in Sources */,
+				04202C1F1E527FBE00F5B3BF /* Colors.swift in Sources */,
+				04949C9B1E51EE1F006977D3 /* CollectionViewCell.swift in Sources */,
+				042F0C321E4FBEEB00CF3DF0 /* FilmViewController.swift in Sources */,
 				0420F1881E4F986D00719C4D /* AppDelegate.swift in Sources */,
+				04ACBDBD1E5359B900460B2B /* UIWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +385,14 @@
 		};
 		0420F1971E4F986D00719C4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 023F982005ACE4AB5E9A800A /* Pods-Tuto Fire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Tuto Fire/Tuto Fire.entitlements";
 				DEVELOPMENT_TEAM = NYR5C8VYSX;
 				INFOPLIST_FILE = "Tuto Fire/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tuto.firebase.Tuto-Fire";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wadii.diab.turq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,12 +400,14 @@
 		};
 		0420F1981E4F986D00719C4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FADBC2F1EF58B0F14DAD7CB9 /* Pods-Tuto Fire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Tuto Fire/Tuto Fire.entitlements";
 				DEVELOPMENT_TEAM = NYR5C8VYSX;
 				INFOPLIST_FILE = "Tuto Fire/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tuto.firebase.Tuto-Fire";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wadii.diab.turq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +432,7 @@
 				0420F1981E4F986D00719C4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

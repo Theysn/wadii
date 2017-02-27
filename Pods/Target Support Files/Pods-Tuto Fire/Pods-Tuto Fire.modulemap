@@ -1,0 +1,6 @@
+framework module Pods_Tuto_Fire {
+  umbrella header "Pods-Tuto Fire-umbrella.h"
+
+  export *
+  module * { export * }
+}
